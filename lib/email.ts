@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import { LeadMagnetEmail } from '@/components/emails/lead-magnet-email';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(process.env.RESEND_API_KEY || 'dummy_key');
 const domain = process.env.RESEND_DOMAIN || 'elevatebodywellness.com';
 
 export async function sendLeadMagnetEmail(email: string, name?: string) {
