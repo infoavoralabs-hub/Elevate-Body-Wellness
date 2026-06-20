@@ -59,6 +59,7 @@ export default function AboutPage() {
                   src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=1000&fit=crop"
                   alt="Elena Rostova, Performance Specialist"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
               </div>

@@ -12,6 +12,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/faq',
     '/blog',
+    '/booking',
+    '/terms',
+    '/privacy',
   ].map((route) => ({
     url: absoluteUrl(route),
     lastModified: new Date().toISOString().split('T')[0],
